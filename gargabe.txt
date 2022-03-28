@@ -1,0 +1,15 @@
+// To create items
+// app.get('/create-item', (req, res) => {
+//     const item = new Item({
+//         name: 'Computer',
+//         price: 2000
+//     });
+//     item.save()
+//       .then(result => res.status(200).send(result))
+//       .catch(error => console.log('While creating got Error: ', error))
+// })
+
+// To get one item by Id
+// app.get('/get-item', (req,res) => {
+//     Item.findById('624173fc1dc437b0139c0a2a').then( (result) => res.status(200).send(result)).catch( (error) => console.log(error))
+// })
